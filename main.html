@@ -3,60 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap 網站示例</title>
-    <!-- 引入 Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
+    <title>第一次做網頁:(</title>
+
 <body>
-
-<!-- 導航欄 -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="#">我的網站</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">首頁</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">關於我們</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">服務</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">聯絡我們</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<!-- 主要內容 -->
-<div class="container mt-4">
+<header>
     <div class="row">
-        <div class="col-md-8">
-            <h1>歡迎來到我的網站</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ex eu luctus cursus, metus neque porttitor lectus.</p>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
-                <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">最新消息</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ex eu luctus cursus, metus neque porttitor lectus.</p>
-                    <a href="#" class="btn btn-primary">閱讀更多</a>
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container">
+              <a class="navbar-brand" href="#">we77465</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">File</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                 </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+</header>
+        
+    
+<main>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-md-7">
+                <img src="https://picsum.photos/600/400" alt="">
+            </div>
+                
+            <div class="col-md-5">
+                <h1 class="mt-5">奇怪的自我介紹</h1>
+                <p class="mt-4" style="font-size: 20px;">
+                    這邊是一個從資安入門到入土的人，參加過ㄌAIS3然後就下定決定放棄ㄌ。
+                </p>
+                <button class="btn btn-primary mt-5">action!</button>
+                <p>希望可以在一年內鬼轉全端2023/09/16留</p>
             </div>
         </div>
+        <div class="row my-5">
+            <div class="col">
+                <div class="bg-secondary text-white my-3 py-3 card text-center">
+                    <p>此網站只用bootstrap 未來可能會再多一些東西? jquery或是再串一些api 另外這邊好像不能寫後端? 我再研究一下下 但串api又是在後端的吧
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+        <div class="row">
+            <div class="card-group">
+                <div class="card">
+                  <img src="https://picsum.photos/id/90/600/400" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">資工系排隊前副隊長</h4>
+                    <p class="card-text">工作 : 欸 晚餐吃什麼</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="https://picsum.photos/id/12/600/400" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">AIS3</h4>
+                    <p class="card-text">這是我一個誤打誤撞進去AIS3被虐的故事，一開始就只是打打CTF感覺很好玩，然後去CTFtime報名了一些比賽，然後成績沒有很理想，但是AIS3還收留了我，並且還遇到神隊友
+                        (現役TSJ戰隊的人)，真的是見了世面，直接被瘋狂打臉，並且靠著大老的carry下，拿到了最佳專題獎...
+                    </p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="https://picsum.photos/id/20/600/400" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h4 class="card-title">sitcon</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+        </div>
     </div>
-</div>
-
-<!-- 引入 Bootstrap JavaScript -->
-<link rel="stylesheet" href="css/bootstrap.css">
-<script src="js/bootstrap.js"></script>
+</main>
+    
 </body>
+</head>
+
+
+
+
+
+<footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+    <div class="container text-center">
+      <small>我好愛你</small>
+    </div>
+  </footer>
+
+    
+    
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+
 </html>
