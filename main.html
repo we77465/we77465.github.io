@@ -40,7 +40,7 @@
                 <p class="mt-4" style="font-size: 20px;">
                     這邊是一個從資安入門到入土的人，參加過ㄌAIS3然後就下定決定放棄ㄌ。
                 </p>
-                <button class="btn btn-primary mt-5">action!</button>
+                <button class="btn btn-primary mt-5" onclick="btn_click()">action!</button>
                 <p>希望可以在一年內鬼轉全端2023/09/16留</p>
             </div>
         </div>
@@ -83,6 +83,21 @@
                 </div>
               </div>
         </div>
+        <div class="row">
+            <div class="col-12 mx-auto" id="guest_said">
+                <table id="MsgTable" class="friends-table mx-auto w-100 pl-2 py-1">
+                    <thead>
+                        <tr>
+                            <th class="w-25">時間</th>
+                            <th>名稱</th>
+                            <th>留言</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </main>
     
@@ -104,5 +119,5 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/bootstrap.js"></script>
-
+    <script src="js/main.js"></script>
 </html>

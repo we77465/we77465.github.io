@@ -6,3 +6,9 @@
 footer{
     background: #212529;
 }
+
+#guest_said{
+    width: 80%;
+    background-color: aqua;
+    border-radius: 5px;
+}
